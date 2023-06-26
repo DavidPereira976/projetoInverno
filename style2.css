@@ -1,0 +1,146 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 20px;
+}
+
+header {
+/* border: solid green; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#4B93BF ;
+color: white;
+}
+
+
+header section {
+/* border: solid black; */
+display: flex;
+align-items: center;
+
+}
+header figure {
+/* border: solid blueviolet; */
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
+}
+
+ul {
+/* border: solid red; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 50vw;
+list-style: none;
+font-weight: 400;
+}
+
+li:hover{
+color: aqua;
+transform: scale(115%);
+cursor: pointer;
+
+}
+
+h2 {
+font-weight: 400;
+}
+
+main .primeiraSessao {
+/* border: solid red; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+align-items: center;
+background-color: #E4EEF1;
+color: #0F468C;
+
+}
+
+.primeiraSessao article  {
+/* border: solid green; */
+width: 50vw;
+
+}
+
+ main .primeiraSessao figure {
+/* border:  solid pink; */
+}
+
+main .segundaSessao {
+/* border: solid yellow; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+align-items: ;
+background-color:#4B93BF ;
+font-size: 32px;
+color:#E4EEF1 ;
+}
+
+.segundaSessao article {
+/* border: solid tomato; */
+display: flex;
+align-items: center;
+}
+
+main .terceiraSessao {
+/* border: solid tomato; */
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+background-color: #E4EEF1;
+}
+
+.terceiraSessao img {
+/* border: solid;    */
+width: 22vw;
+height: 40vh;
+}
+
+.terceiraSessao figure {
+/* border: solid green; */
+width: 24vw;
+}
+
+footer{
+/* border: solid purple; */
+background-color: #4B93BF;
+}
+
+footer .quartaSessao {
+display: flex;
+justify-content: space-between;
+justify-content: ;
+color: white;
+}
+
+footer .start {
+/* border: solid green; */
+display: flex;
+align-items: center;
+width: 33vw;
+}
+
+footer .center {
+/* border: solid black; */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+width: 33vw;
+}
+
+footer .end {
+/* border: solid blue; */
+display: flex;
+justify-content: center;
+align-items: center;
+width: 33vw;
+}
